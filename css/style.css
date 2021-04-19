@@ -152,14 +152,14 @@ nav .logo {
 
 @-webkit-keyframes comet {
   0% {
-    right: 1000px;
+    right: 1700px;
     z-index: -1;
   }
 }
 
 @keyframes comet {
   0% {
-    right: 1000px;
+    right: 1700px;
     z-index: -1;
   }
 }
