@@ -1,134 +1,214 @@
-
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ukr">
 <head>
-<title></title>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="icons/favicon_firesafety.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Пожежна безпека</title>
 </head>
-
-<style>
-
-body {
-
-	background-image: url('grunge_patterns.jpg');
-	background-attachment: fixed;
-	color: #333;
-}
-
-.box {
-	border-radius: 3px;
-	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
-}
-
-.lightbox {
-	zoom: 1.5;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(10, 10, 10, 0.8);
-	text-align: center;
-	margin: auto;
-
-}
-
-div.horizontal {
-	display: flex;
-	justify-content: center;
-	height: 100%;
-}
-
-div.vertical {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-}
-
-::-webkit-input-placeholder {
-   color: #955;
-   text-align: center;
-}
-
-::-moz-placeholder {
-   color: #955;
-   text-align: center;
-}
-
-:-ms-input-placeholder {
-   color: #955;
-   text-align: center;
-}
-
-</style>
-
 <body>
+    <header>
+        <nav>
+            <div class="logo">
+            <a href="#" ><img src="icons/logo.png" alt="" class="img_logo"></a>
+            </div>
+            <div class="container">
+                <ul class="menu">
+                    <li class="menu_item"><a href="index.html">Головна</a></li>
+                    <li class="menu_item"><a href="contacts.html">Контакти</a></li>
+                    <li class="menu_item"><a href="a65fc36d16b56ff45429883d66e2f80a61f257d1/materials.html">Навчальні матеріали</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>  
+        </nav>
+        
+        <div class="spacer"></div>
+    </header>
 
-	<div id="loginbox" class="lightbox" >
-		<div class="horizontal">
-			<div class="vertical">
-				<div class="box">
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <section class="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-10 offset-1">
+                <h1> НАдання послуг з<br>ПОжежної безпеки</h1>
+                </div>
 
+                <div class="col-md-7 offset-md-5 col-9 offset-3">
+                    <div class="promo_descr">
+                        «Турбота про клієнта в наших серцях<br>Запобігання пожеж в наших діях»
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="intr" id="intr">
+        <div class="container">
+            <div class="intr_divider"></div>
+            <div class="row">
+                <div class="col-md-4 offset-md-4">
+                    <h2 class="intr_subheader">
+                        Наша компанія:
+                    </h2>
+                </div>
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+                <div class="col-lg-8 offset-lg-3 col-md-9 offset-md-3 col-10 offset-2 ">
+                    <div class="intr_descr">
+                        Ми - приватне підприємство "Безпека В.С.Е." надаємо спектр послуг з питань пожежної безпеки, та реалізуємо засоби протипожежного захисту та індивідуального захисту органів дихання на території міста Хмельницького.
+                    </div>
+                </div>
 
+                <div class="intr_comet">
+                    <img src="icons/comet.png" alt="" class="img_comet">
+                </div>
+            </div>
+        </div>
+    </section>
 
-	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+    <section class="serv" id="serv">
+        <div class="container">
+            <div class="serv_divider"></div>
+            <h2 
+                class="serv_subheader">Наші послуги:
+            </h2>
 
-	<script type="text/javascript">
-	"use strict";
+            <div class="row">
 
+                <div class="col-md-4">
+                    <div class="serv_element">
+                        <div class="serv_wrapper front">
+                            <div class="serv_wrapper_item">
+                            <img src="icons/serv1.png" alt="">
+                            </div>
+                            <div class="serv_wrapper_descr">Забезпечуємо підприєм-<br>ства засобами протипо-<br>жежного та індивідуально-<br>го захисту органів дихання.</div>
+                        </div>
 
-	function loadPage(pwd) {
+                        <div class="serv_wrapper back"></div>
+                    </div>    
+                </div>
 
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
+                <div class="col-md-4">
+                    <div class="serv_element">
+                        <div class="serv_wrapper front">
+                            <div class="serv_wrapper_item">
+                            <img src="icons/serv2.png" alt="">
+                            </div>
+                            <div class="serv_wrapper_descr">Проводимо навчання з питань пожежної безпеки посадових осіб, під-<br>приємств та організацій</div>
+                        </div>
 
-		$.ajax({
-			url : url,
-			dataType : "html",
-			success : function(data) {
+                        <div class="serv_wrapper back">
+                            <form action="">
+                                <button class="back_butn">
+                                    договір
+                                </button>
+                            </form>
+                        </div>                        
+                    </div>    
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="serv_element front">
+                        <div class="serv_wrapper">
+                            <div class="serv_wrapper_item">
+                            <img src="icons/serv3.png" alt="">
+                            </div>
+                            <div class="serv_wrapper_descr">Влаштовуємо навчання з пожежно-технічного мінімуму.</div>
+                        </div>
+                        
+                        <div class="serv_wrapper back">
+                            <form action="">
+                                <button class="back_butn">
+                                    договір
+                                </button>
+                            </form>
+                        </div>    
+                    </div>
+                </div>
 
-				window.location= url;
+            </div>
+        </div>
+    </section>
 
-			},
-			error : function(xhr, ajaxOptions, thrownError) {
+    <section class="partner" id="client">
+        <div class="container">
+            <div class="partner_divider"></div>
+            <h2 class="partner_subheader">
+                Наші клієнти:
+            </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="partner_wrapper">
+                        <a href="https://hoe.com.ua/"><img src="icons/Hmelobl.png" alt="" class="partner_wrapper_img"></a>
+                    </div>
+                    <div class="partner_descr">АТ "Хмельницькобленерго"</div>
+                </div>
 
+                <div class="col-md-4">
+                    <div class="partner_wrapper">
+                        <a href="https://karatcarpet.com/ua/glavnaya-ukrayinska/"><img src="icons/Karat.png" alt="" class="partner_wrapper_img"></a>
+                    </div>
+                    <div class="partner_descr">ООО "КАРАТ"</div>
+                </div>
 
-				parent.location.hash= hash;
+                <div class="col-md-4">
+                    <div class="partner_wrapper">
+                        <a href="https://biosphere-corp.com/ua/"><img src="icons/Biosphere.png" alt="" class="partner_wrapper_img"></a>
+                    </div>
+                    <div class="partner_descr">Корпорація «Біосфера»</div>
+                </div>
+            </div>            
+        </div>
+    </section>
 
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
-				$("#password").val("");
-			}
-		});
-	}
+    <footer>
+        <div class="container">
 
+                <div class="footer_contacts">
+                    <div class="footer_contacts_item">
+                        <i class="fas fa-clock"></i>
+                        <a href="#"> Пн - Пт: 9:00 - 18:00</a>
+                    </div>
+                    <div class="footer_contacts_item">
+                        <i class="fas fa-envelope-open"></i>
+                        <a href="mailto:bezpeka.vse2018@gmail.com">bezpeka.vse2018@gmail.com</a>
+                    </div>
+                    <div class="footer_contacts_item">
+                        <i class="fas fa-phone-volume"></i>
+                        <a href="tel:+38(096)671-97-81">+38 (096) 671-97-81</a>
+                    </div>
+                </div>
 
-	$("#loginbutton").on("click", function() {
-		loadPage($("#password").val());
-	});
-	$("#password").keypress(function(e) {
-		if (e.which == 13) {
+                <div class="footer_links">
+                    <a href="#intr">Про нас</a>
+                    <a href="#serv">Послуги</a>
+                    <a href="#client">Клієнти</a>
+                </div>
 
-			loadPage($("#password").val());
-		}
-	});
-	$("#password").focus();
+                <div class="footer_social">
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer_social_item">
+                        <i class="fab fa-viber"></i>
+                    </a>                    
+                </div>
 
-	</script>
-
+        </div>    
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
