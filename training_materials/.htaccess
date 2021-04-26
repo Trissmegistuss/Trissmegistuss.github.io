@@ -1,5 +1,0 @@
-AuthType basic
-AuthName 'Authorization...'
-AuthUserFile 'Trissmegistuss.github.io/training_materials/.htpasswd'
-Require valid-user
-DirectoryIndex admin.php
