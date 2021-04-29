@@ -470,15 +470,6 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
     height: 6px;
   }
   
-  .serv_element:hover {
-    -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
-  }
-  
-  .serv_element:hover .back {
-    z-index: 1;
-  }
-  
   .partner_subheader {
     font-size: 35px;
   }
