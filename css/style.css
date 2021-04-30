@@ -710,6 +710,17 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   .serv_wrapper {
     width: 250px;
   }
+  
+  .back {
+    left: inherit;
+    top: 90px;
+    height: 100px
+  }
+  
+  .back:hover {
+    z-index: 1;
+  }
+  
   .serv_wrapper_descr {
     min-height: 100px;
   }
