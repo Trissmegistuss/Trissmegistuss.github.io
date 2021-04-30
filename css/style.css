@@ -866,6 +866,9 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   .promo {
     background: url("../img/promo_back_xxs.jpg") center center/cover no-repeat;
   }
+  .promo_descr {
+    font-size: 14px;
+  }
   .intr {
     background: url("../img/intr_back_xxs.jpg") center center/cover no-repeat;
   }
