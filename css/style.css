@@ -872,5 +872,10 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   .intr {
     background: url("../img/intr_back_xxs.jpg") center center/cover no-repeat;
   }
+  .footer_contacts a {
+    font-size: 9.5px;
+  }
+  .footer_contacts i {
+    font-size: 9.5px;
 }
 /*# sourceMappingURL=style.css.map */
