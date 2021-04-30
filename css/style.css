@@ -828,6 +828,11 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   .serv_wrapper_descr {
     margin-top: 35px;
   }
+  
+  .back {
+    height: 65px;
+  }
+  
   .footer_contacts {
     -ms-flex-pack: distribute;
         justify-content: space-around;
