@@ -1,15 +1,5 @@
-.promo .materials_header {
-    font-size: 65px;
-  }
-
-@media (max-width: 767px) {
-  .promo .materials_header {
-    font-size: 38px;
-  }
-}
-
 @media (max-width: 450px) {
-    .promo .materials_header {
+    .promo h1 {
       font-size: 23px;
     }
 }
