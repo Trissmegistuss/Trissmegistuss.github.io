@@ -87,6 +87,10 @@ nav .logo {
           animation: text1 2s 1;
 }
 
+.promo .materials_header {
+  font-size: 65px;
+}
+  
 .promo_descr {
   height: 106px;
   margin-top: 200px;
@@ -667,6 +671,9 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
     font-size: 40px;
     text-align: left;
   }
+  .promo .materials_header {
+    font-size: 38px;
+  }
   .promo_descr {
     margin-top: 140px;
     font-size: 20px;
@@ -865,6 +872,9 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   }
   .promo {
     background: url("../img/promo_back_xxs.jpg") center center/cover no-repeat;
+  }
+  .promo .materials_header {
+    font-size: 23px;
   }
   .promo_descr {
     font-size: 14px;
