@@ -877,5 +877,10 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   }
   .footer_contacts i {
     font-size: 9.5px;
+  }
+  .map_descr {
+    width: 75%;
+    height: 90px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
