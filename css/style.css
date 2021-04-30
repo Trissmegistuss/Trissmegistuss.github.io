@@ -723,6 +723,8 @@ footer a:link, footer a:visited, footer a:hover, footer a:active {
   
   .serv_wrapper_descr {
     min-height: 100px;
+    margin-top: 65px;
+    background-color: #c0232a;
   }
   .partner_subheader {
     font-size: 23px;
