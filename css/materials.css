@@ -3,3 +3,46 @@
       font-size: 23px;
     }
 }
+
+.materials{
+  padding: 35px 0 45px 0;
+}
+
+.materials_subheader {
+  margin-top: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #0c0e10;
+}
+
+.materials_wrapper {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.materials_wrapper_img{
+  width: 150px;
+}
+
+.materials_descr {
+  margin-top: 60px;
+  text-align: center;
+  color: #0c0e10;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.materials_divider {
+  margin-top: 35px;
+  width: 300px;
+  height: 8px;
+  margin: 0 auto;
+  background-color: #0c0e10;
+}
